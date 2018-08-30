@@ -2,5 +2,5 @@ import random
 question=input("What question do you wish to ask the 8 ball?:")
 print("You asked the 8 ball:", question)
 
-responses= ["Keep dreaming", "Maybe if you're lcuky", "Absolutely", "There's a slight chance", "Try again later", "The answer is yes"]
+responses= ["Keep dreaming", "Maybe if you're lucky", "Absolutely", "There's a slight chance", "Try again later", "The answer is yes"]
 print("The 8 ball says:", random.choice(responses))
